@@ -13,3 +13,9 @@ INSERT INTO student (id, name) VALUES ('S007', 'Prajeeth');
 INSERT INTO student (id, name) VALUES ('S008', 'Sachith');
 INSERT INTO student (id, name) VALUES ('S009', 'Dulanga');
 INSERT INTO student (id, name) VALUES ('S010', 'Ravindya');
+
+CREATE TABLE program(
+    id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(30) NOT NULL
+);
+
